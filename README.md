@@ -48,7 +48,7 @@ From your shell or command line:
 
 `git clone https://github.com/jmprieur/aad-indiv-dotnet-desktop-wpf.git --recursive`
 
-> This project uses GitHub submodules so that several samples leverage the same Web API project. Don't forget the --recursive otherwise some projects in your solution won't load
+> This project uses [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) so that several samples leverage the same Web API project. Don't forget the `--recursive` flag otherwise some projects in your solution won't load.
 
 ### Step 3:  Register the sample with your Azure Active Directory tenant
 
