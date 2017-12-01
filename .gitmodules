@@ -1,0 +1,3 @@
+[submodule "TodoListService"]
+	path = TodoListService
+	url = https://github.com/jmprieur/aad-indiv-aspnetcore2-webapi
