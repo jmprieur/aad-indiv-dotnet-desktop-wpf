@@ -46,7 +46,9 @@ Next time a user runs the application, the user is signed-in with the same ident
 
 From your shell or command line:
 
-`git clone https://github.com/Azure-Samples/active-directory-dotnet-native-aspnetcore.git`
+`git clone https://github.com/Azure-Samples/active-directory-dotnet-native-aspnetcore.git --recursive`
+
+> This project uses GitHub submodules so that several samples leverage the same Web API project. Don't forget the --recursive otherwise some projects in your solution won't load
 
 ### Step 3:  Register the sample with your Azure Active Directory tenant
 
